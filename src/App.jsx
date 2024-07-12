@@ -1,12 +1,17 @@
-import { useState } from 'react'
+
 import './App.css'
+
+import Layout from './components/layout/Layout'
+import MainContainer from './components/mainContainer/MainContainer'
 
 function App() {
   
 
   return (
     <>
-      <h1>Hello Books</h1>
+      <Layout>
+        <MainContainer />
+      </Layout>
     </>
   )
 }
